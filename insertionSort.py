@@ -38,4 +38,7 @@ def intserion(arr):
             arr[i - 1] = 0 
  
 print(insertionSort(arr))
-            
+
+
+#best case O(n) if it was all ready sorted but worse case is O(n^2)
+#It only requires, O(n) for memory which is really good 
